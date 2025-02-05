@@ -5,7 +5,7 @@
 1. Go into project
 
 ```bash
-cd shadcn-landing-page
+cd khyberstar-laptop
 ```
 
 2. Install dependencies
