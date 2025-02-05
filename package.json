@@ -1,4 +1,5 @@
 {
+  "homepage": "https://github.com/muhammadullah1/khyberstart-laptop",
   "name": "khyber-start-laptop",
   "description": "khyber start laptop center offical store.",
   "author": {
@@ -6,7 +7,6 @@
     "email": "muhammadullah403@gmail.com",
     "url": "https://github.com/muhammadullah1"
   },
-
   "license": "MIT",
   "keywords": [
     "react",
@@ -24,7 +24,9 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@radix-ui/react-accordion": "^1.2.0",
@@ -36,6 +38,7 @@
     "@radix-ui/react-slot": "^1.1.0",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
+    "gh-pages": "^6.3.0",
     "lucide-react": "^0.424.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
