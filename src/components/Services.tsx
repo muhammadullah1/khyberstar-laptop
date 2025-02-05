@@ -10,19 +10,25 @@ interface ServiceProps {
 
 const serviceList: ServiceProps[] = [
   {
-    title: "Code Collaboration",
+    title: "Repairing",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nesciunt est nostrum omnis ab sapiente.",
     icon: <ChartIcon />,
   },
   {
-    title: "Project Management",
+    title: "Facebook WhatsApp Account Recovery",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nesciunt est nostrum omnis ab sapiente.",
     icon: <WalletIcon />,
   },
   {
-    title: "Task Automation",
+    title: "New Account Creation",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nesciunt est nostrum omnis ab sapiente.",
+    icon: <MagnifierIcon />,
+  },
+  {
+    title: "Ethical Hacking",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nesciunt est nostrum omnis ab sapiente.",
     icon: <MagnifierIcon />,
@@ -32,19 +38,18 @@ const serviceList: ServiceProps[] = [
 export const Services = () => {
   return (
     <section className="container py-24 sm:py-32">
-      <div className="grid lg:grid-cols-[1fr,1fr] gap-8 place-items-center">
+      <div className="grid lg:grid-cols-full gap-8 place-items-center">
         <div>
-          <h2 className="text-3xl md:text-4xl font-bold">
+          <h2 className="text-center text-3xl md:text-4xl font-bold py-10">
             <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
-              Client-Centric{" "}
+            Our Services {" "}
             </span>
-            Services
           </h2>
 
-          <p className="text-muted-foreground text-xl mt-4 mb-8 ">
+          {/* <p className="text-muted-foreground text-xl mt-4 mb-8 ">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis
             dolor.
-          </p>
+          </p> */}
 
           <div className="flex flex-col gap-8">
             {serviceList.map(({ icon, title, description }: ServiceProps) => (
@@ -65,11 +70,11 @@ export const Services = () => {
           </div>
         </div>
 
-        <img
+        {/* <img
           src={cubeLeg}
           className="w-[300px] md:w-[500px] lg:w-[600px] object-contain"
           alt="About services"
-        />
+        /> */}
       </div>
     </section>
   );

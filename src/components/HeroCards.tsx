@@ -28,7 +28,7 @@ export const HeroCards = () => {
           </Avatar>
 
           <div className="flex flex-col">
-            <CardTitle className="text-lg">John Doe React</CardTitle>
+            <CardTitle className="text-lg">Najeeb Ullah Afridi</CardTitle>
             <CardDescription>@john_doe</CardDescription>
           </div>
         </CardHeader>
@@ -44,7 +44,7 @@ export const HeroCards = () => {
             alt="user avatar"
             className="absolute grayscale-[0%] -top-12 rounded-full w-24 h-24 aspect-square object-cover"
           />
-          <CardTitle className="text-center">Leo Miranda</CardTitle>
+          <CardTitle className="text-center">Najeeb Ullah Afridi</CardTitle>
           <CardDescription className="font-normal text-primary">
             Frontend Developer
           </CardDescription>
@@ -160,7 +160,7 @@ export const HeroCards = () => {
             <LightBulbIcon />
           </div>
           <div>
-            <CardTitle>Light & dark mode</CardTitle>
+            <CardTitle>Hacking</CardTitle>
             <CardDescription className="text-md mt-2">
               Lorem ipsum dolor sit amet consect adipisicing elit. Consectetur
               natusm.

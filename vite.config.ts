@@ -9,5 +9,5 @@ export default defineConfig({
       "@": path.resolve(__dirname, "./src"),
     },
   },
- base: "/khyberstar-laptop",
+//  base: "/khyberstar-laptop",
 });
