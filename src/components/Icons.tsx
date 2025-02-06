@@ -662,3 +662,131 @@ export const MagnifierIcon = () => {
     </svg>
   );
 };
+
+export const WrenchIcon = () => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    strokeWidth="2"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+    className="w-12 h-12"
+  >
+    <path d="M14.7 10.4A6 6 0 1 1 9.6 5.3L3 12l9 9 6.7-6.7a6 6 0 0 1-4.9-3.9z"></path>
+  </svg>
+);
+
+export const DatabaseIcon = () => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    strokeWidth="2"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+    className="w-12 h-12"
+  >
+    <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
+    <path d="M3 5v14a9 3 0 0 0 18 0V5"></path>
+    <path d="M3 12a9 3 0 0 0 18 0"></path>
+  </svg>
+);
+
+export const DownloadIcon = () => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    strokeWidth="2"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+    className="w-12 h-12"
+  >
+    <path d="M4 20h16"></path>
+    <path d="M12 14v-10"></path>
+    <path d="M16 10l-4 4-4-4"></path>
+  </svg>
+);
+
+export const RocketIcon = () => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    strokeWidth="2"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+    className="w-12 h-12"
+  >
+    <path d="M5 17a3.5 3.5 0 0 0-1 3h3"></path>
+    <path d="M9 17a3.5 3.5 0 0 0-1 3h3"></path>
+    <path d="m16 10 4 4"></path>
+    <path d="M10.5 17 9 22"></path>
+    <path d="M13.5 17 15 22"></path>
+    <path d="M12 15V9"></path>
+    <path d="M16 5a2 2 0 0 1 2 2c0 1-1.5 3-4 4-2.5 1-4 1-4 1S7.5 9 7 6.5A2 2 0 0 1 9 4c1 0 2.5.5 3.5 1.5A5 5 0 0 1 16 5"></path>
+  </svg>
+);
+
+export const ShieldIcon = () => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    strokeWidth="2"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+    className="w-12 h-12"
+  >
+    <path d="M12 2 3 5v6c0 5 3.6 10 9 11 5.4-1 9-6 9-11V5z"></path>
+    <path d="M10 11h4"></path>
+    <path d="M12 9v4"></path>
+  </svg>
+);
+
+export const LockIcon = () => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    strokeWidth="2"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+    className="w-12 h-12"
+  >
+    <rect width="16" height="10" x="4" y="11" rx="2"></rect>
+    <path d="M8 11V7a4 4 0 0 1 8 0v4"></path>
+    <path d="M12 16h.01"></path>
+  </svg>
+);
+
+export const WhatsAppIcon = () => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 24 24"
+    fill="currentColor"
+    className="w-6 h-6"
+  >
+    <path d="M18.5 3.5A11.5 11.5 0 0 0 2 18.1L2 22l3.9-1A11.5 11.5 0 0 0 20.5 3.5zM12 20a8 8 0 0 1-4.2-1.2l-.3-.2-2.9.7.7-2.8-.2-.3A8 8 0 1 1 12 20zm4.2-5.7c-.2-.1-1.2-.6-1.4-.7s-.3-.1-.5.1c-.1.2-.5.7-.6.9s-.2.2-.4.1a6.5 6.5 0 0 1-3-2.6c-.2-.4.2-.4.6-1 .1-.2 0-.3 0-.5s0-.4 0-.6a.5.5 0 0 0-.2-.4c-.2-.2-.9-.9-1.2-1.2s-.3-.3-.5-.2h-.6c-.2 0-.4 0-.6.2s-.8.8-.8 2c0 1 .8 1.9.9 2.1 0 0 1.5 2.3 3.6 3.2s2.2.6 2.6.5 1.2-.5 1.4-1 .3-1 .2-1z"></path>
+  </svg>
+);
+
+
+export const FacebookIcon = () => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 24 24"
+    fill="currentColor"
+    className="w-6 h-6"
+  >
+    <path d="M22 12a10 10 0 1 0-11.5 9.9V15h-3v-3h3V9.8c0-3 1.8-4.6 4.4-4.6 1.3 0 2.6.2 2.6.2v3h-1.5c-1.4 0-1.9.9-1.9 1.8V12h3.2l-.5 3h-2.7v6.9A10 10 0 0 0 22 12z"></path>
+  </svg>
+);
+

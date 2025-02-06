@@ -12,13 +12,13 @@ interface LaptopProduct {
   image: string
 }
 
-const laptops: LaptopProduct[] = Array.from({ length: 20 }, (_, i) => ({
+const laptops: LaptopProduct[] = Array.from({ length: 8 }, (_, i) => ({
   id: i + 1,
   name: `Laptop Model ${String.fromCharCode(65 + (i % 26))}${Math.floor(i / 26) + 1}`,
   processor: `Intel Core i${5 + (i % 5)}`,
   ram: `${8 + (i % 8) * 4}GB`,
   storage: `${256 + (i % 4) * 256}GB SSD`,
-  price: 699 + i * 1000,
+  price: 699 + i * 10000,
   image: 'https://images.priceoye.pk/dell-latitude-3540-15-6-inches-13th-gen-core-i5-dos-8gb-256gb-pakistan-priceoye-ribij-500x500.webp',
 }))
 

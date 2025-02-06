@@ -1,5 +1,6 @@
 import { Card, CardContent, CardHeader, CardTitle } from './ui/card'
-import { MedalIcon, MapIcon, PlaneIcon, GiftIcon } from '../components/Icons'
+import { WrenchIcon, DatabaseIcon, DownloadIcon, RocketIcon,ShieldIcon, LockIcon } from "../components/Icons";
+
 
 interface FeatureProps {
   icon: JSX.Element
@@ -7,32 +8,45 @@ interface FeatureProps {
   description: string
 }
 
+
 const features: FeatureProps[] = [
   {
-    icon: <MedalIcon />,
-    title: 'Repairing',
+    title: "Laptop Repair & Maintenance",
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum quas provident cum',
+      "We diagnose and fix hardware and software issues, including screen replacement, keyboard repair, and system optimization.",
+    icon: <WrenchIcon />,
   },
   {
-    icon: <MapIcon />,
-    title: 'Facebook WhatsApp Account Recovery',
+    title: "Data Recovery & Backup",
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum quas provident cum',
+      "Recover lost data from damaged or corrupted drives and set up secure backups to protect your important files.",
+    icon: <DatabaseIcon />,
   },
   {
-    icon: <PlaneIcon />,
-    title: 'New Account Creation',
+    title: "Software Installation & Updates",
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum quas provident cum',
+      "Get genuine software installed, including operating systems, antivirus, and productivity tools, with regular updates.",
+    icon: <DownloadIcon />,
   },
   {
-    icon: <GiftIcon />,
-    title: 'Ethical Hacking',
+    title: "Laptop Upgrades",
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum quas provident cum',
+      "Enhance your laptop’s performance with RAM, SSD, and battery upgrades to boost speed and efficiency.",
+    icon: <RocketIcon />,
   },
-]
+  {
+    title: "Facebook & WhatsApp Account Recovery",
+    description:
+      "Recover lost or hacked Facebook and WhatsApp accounts with secure and verified methods to regain access quickly.",
+    icon: <ShieldIcon />,
+  },
+  {
+    title: "Ethical Hacking & Cybersecurity",
+    description:
+      "Protect your digital assets with penetration testing, vulnerability assessments, and cybersecurity solutions.",
+    icon: <LockIcon />,
+  },
+];
 
 export const HowItWorks = () => {
   return (

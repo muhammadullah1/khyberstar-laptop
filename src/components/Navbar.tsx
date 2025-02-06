@@ -12,7 +12,6 @@ import {
   SheetTrigger,
 } from '@/components/ui/sheet'
 
-import { GitHubLogoIcon } from '@radix-ui/react-icons'
 import { buttonVariants } from './ui/button'
 import { Menu } from 'lucide-react'
 import { ModeToggle } from './mode-toggle'
@@ -24,20 +23,12 @@ interface RouteProps {
 
 const routeList: RouteProps[] = [
   {
-    href: '#features',
+    href: '#laptopProducts',
     label: 'Laptops',
   },
   {
-    href: '#testimonials',
+    href: '#howItWorks',
     label: 'Services',
-  },
-  {
-    href: '#pricing',
-    label: 'Contacts',
-  },
-  {
-    href: '#faq',
-    label: 'FAQ',
   },
 ]
 
@@ -89,17 +80,6 @@ export const Navbar = () => {
                       {label}
                     </a>
                   ))}
-                  <a
-                    rel='noreferrer noopener'
-                    href='https://github.com/leoMirandaa/shadcn-landing-page.git'
-                    target='_blank'
-                    className={`w-[110px] border ${buttonVariants({
-                      variant: 'secondary',
-                    })}`}
-                  >
-                    <GitHubLogoIcon className='mr-2 w-5 h-5' />
-                    Github
-                  </a>
                 </nav>
               </SheetContent>
             </Sheet>

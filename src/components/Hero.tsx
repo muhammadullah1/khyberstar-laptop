@@ -1,6 +1,6 @@
 import { Button } from './ui/button'
-import { HeroCards } from './HeroCards'
-import { GitHubLogoIcon } from '@radix-ui/react-icons'
+import { LocationMap } from './Location'
+import { FacebookIcon, WhatsAppIcon } from './Icons'
 
 export const Hero = () => {
   return (
@@ -26,20 +26,21 @@ export const Hero = () => {
             className='w-full md:w-1/3'
             onClick={() => window.open('https://wa.me/+923343434300', '_blank')}
           >
-            {' '}
-            <GitHubLogoIcon className='ml-2 w-5 h-5 mx-5' />
-            WhatsApp Me
+            <WhatsAppIcon /> <span className='px-2'> WhatsApp Me</span>
+          </Button>
+
+          <Button
+            className='w-full md:w-1/3'
+            onClick={() => window.open('https://www.facebook.com/khyberstarcentre', '_blank')}
+          >
+            <FacebookIcon /> <span className='px-2'>Facebook</span>
           </Button>
         </div>
       </div>
 
-      {/* Hero cards sections */}
-      <div className='z-10'>
-        <HeroCards />
+      <div className='w-full h-auto'>
+        <LocationMap />
       </div>
-
-      {/* Shadow effect */}
-      <div className='shadow'></div>
     </section>
   )
 }

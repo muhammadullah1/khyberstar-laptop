@@ -1,4 +1,3 @@
-import { FAQ } from './components/FAQ'
 import { Footer } from './components/Footer'
 import { Hero } from './components/Hero'
 import { HowItWorks } from './components/HowItWorks'
@@ -12,9 +11,8 @@ function App() {
     <>
       <Navbar />
       <Hero />
-      <LaptopProducts />
       <HowItWorks />
-      <FAQ />
+      <LaptopProducts />
       <Footer />
       <ScrollToTop />
     </>
